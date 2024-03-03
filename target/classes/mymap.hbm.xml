@@ -1,0 +1,21 @@
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.abhi.entities.Student" table="tcasdt">
+		<id name="rno" column="RNO" />
+		<property name="name" column="NAME" />
+		<property name="per" column="PER" />
+	</class>
+	
+	<class name="com.abhi.entities.Teacher" table="teacher">
+		<id name="tno" column="TRNO" />
+		<property name="tname" column="TNAME" />
+		<property name="salary" column="SALARY" />
+	</class>
+
+</hibernate-mapping>
+    
+    
